@@ -4,6 +4,9 @@
     font-family: "Poppins",sans-serif;
     box-sizing: border-box;
 }
+nav i {
+    display: none;
+}
 body{
     background: black;
     color: white;
@@ -74,7 +77,16 @@ button:hover {
     align-items: flex-start;
     color: #fff;
 }
-
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
 
 /* csss for small screen */
 @media only screen and (max-width: 600px){

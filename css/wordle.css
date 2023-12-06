@@ -1,11 +1,6 @@
-body{
+#title, #answer{
     text-align: center;
 }
-
-hr{
-    width: 500px;
-}
-
 #title {
     font-size: 36px;
     font-weight: bold;

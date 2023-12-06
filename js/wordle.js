@@ -36,41 +36,44 @@ function intialize(){
     let keyboard = [
         ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
         ["A", "S", "D", "F", "G", "H", "J", "K", "L", " "],
-        ["Enter", "Z", "X", "C", "V", "B", "N", "M", "⌫" ]
-    ]
-
-    for (let i = 0; i < keyboard.length; i++){
+        ["Enter", "Z", "X", "C", "V", "B", "N", "M", "⌫"]
+    ];
+    
+    // Create a container div for the keyboard
+    let keyboardContainer = document.createElement("div");
+    keyboardContainer.classList.add("keyboard-container");
+    
+    for (let i = 0; i < keyboard.length; i++) {
         let currRow = keyboard[i];
         let keyboardRow = document.createElement("div");
         keyboardRow.classList.add("keyboard-row");
-
-        for(let j = 0; j < currRow.length; j++){
+    
+        for (let j = 0; j < currRow.length; j++) {
             let keyTile = document.createElement("div");
-
+    
             let key = currRow[j];
             keyTile.innerText = key
-            if (key == "Enter"){
+            if (key == "Enter") {
                 keyTile.id = "Enter";
-            }
-
-            else if (key == "⌫"){
+            } else if (key == "⌫") {
                 keyTile.id = "Backspace";
-            }
-
-            else if ("A" <= key && key <= "Z"){
+            } else if ("A" <= key && key <= "Z") {
                 keyTile.id = "Key" + key;
             }
-
-            keyTile.addEventListener("click",processKey);
+    
+            keyTile.addEventListener("click", processKey);
             if (key == "Enter") {
                 keyTile.classList.add("enter-key-tile");
-            } else{
+            } else {
                 keyTile.classList.add("key-tile");
             }
             keyboardRow.appendChild(keyTile);
         }
-        document.body.appendChild(keyboardRow);
+        keyboardContainer.appendChild(keyboardRow);
     }
+    
+    // Append the keyboard container to the body
+    document.getElementById("keyboard").appendChild(keyboardContainer);
     //listen for key input
     document.addEventListener("keyup", (e) => {
         proccessInput(e);
