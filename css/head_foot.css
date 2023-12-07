@@ -4,6 +4,7 @@
     font-family: "Poppins",sans-serif;
     box-sizing: border-box;
 }
+/*                              Web header section                              */
 nav i {
     display: none;
 }
@@ -21,7 +22,7 @@ body{
 .container{
     padding: 10px 10%;
 }
-/*                              Web header section                              */
+
 nav{
     display: flex;
     align-items: center;
@@ -77,6 +78,7 @@ button:hover {
     align-items: flex-start;
     color: #fff;
 }
+/* general thing */
 .row{
     display: flex;
     justify-content: space-between;
@@ -87,6 +89,7 @@ button:hover {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 
 /* csss for small screen */
 @media only screen and (max-width: 600px){
