@@ -113,7 +113,7 @@ function proccessInput(e){
 
 function update() {
     let guess = "";
-    document.getElementById("answer").innerText="";
+    document.getElementById("answer").innerText="Answer";
 
     for (let c = 0; c < width; c++){
         let currentTile = document.getElementById(row.toString() + '-' + c.toString());

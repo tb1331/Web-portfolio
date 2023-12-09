@@ -12,10 +12,11 @@
 }
 .hobby-list div{
     background: #262626;
-    padding: 40px;
+    padding: 30px;
     font-size: 16px;
     font-weight: 300;
     border-radius: 10px;
+    height: 57vh;
     transition: background 0.5s, transform 0.5s;
 }
 .hobby-list div h2{

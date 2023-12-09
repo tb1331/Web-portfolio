@@ -10,21 +10,25 @@
     <script src="js/wordle.js"></script>
 </head>
 <body>
-<nav>
-<div id="header">
-    <div class="container">
-        <nav>
-            <img src="/images/logo.webp" class="logo" alt="logo"> 
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Portfolio</a></li>
-            </ul>
-            <a href="#"><button>Contact me</button></a>
+    <nav>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="/images/logo.webp" class="logo" alt="logo"> 
+                    <ul id="sidemenu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="skill.html">My skill</a></li>
+                        <li><a href="qualification.html">My qualification</a></li>
+                        <li><a href="#contact"><button>Contact me</button></a></li>
+                        <i class="X" onclick="closemenu()">X</i>
+                    </ul>
+                    
+                    <i class="menu" onclick="openmenu()">Menu</i>
+                </nav>
+            </div>
+        </div>   
         </nav>
-    </div>
-</div>   
-</nav>
 <h1 id="title">Wordle</h1>
 <br>
 <div id="board"></div>

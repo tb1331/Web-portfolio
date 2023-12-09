@@ -1,0 +1,42 @@
+#header{
+    background-image: url(/images/Cyber-Security-Icon-Concept-2-1.jpeg);
+    height: 100vh;
+}
+/*intro text*/
+.intro_text{
+    text-align: center;
+    font-size: 100px;
+    margin-top: 20px;
+}
+#header2{
+    background-image: url(/images/cyber2.webp);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.text{
+    line-height: 1.8;
+    margin-top: 50px;
+    font-size: 30px;
+    width: 1000px;
+    font-weight: 300;
+}
+#header3{
+    background-image: url(/images/cyber3.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.text2{
+    margin-left: 650px;
+    line-height: 1.8;
+    margin-top: 50px;
+    font-size: 30px;
+    width: 1000px;
+    font-weight: 300;
+}
