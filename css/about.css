@@ -47,7 +47,6 @@ html{
     position: relative;
 }
 .tablink::after{
-    content: "";
     width: 0;
     height: 3px;
     background: #d660d8;
@@ -79,61 +78,8 @@ nav i {
     display: none;
 }
 
-
-/* csss for small screen */
 @media only screen and (max-width: 600px){
     #header{
         background-image: url(/images/prfile.png);
-    }
-    .intro_text{
-        margin-top: 100%;
-        font-size: 16px;
-    }
-    .intro_text h1 {
-       font-size: 30px;
-       margin-top: 20px;
-    }
-    nav i {
-        display: block;
-        font-size: 25px;
-    }
-    nav ul{
-        background: #d660d8;
-        position: fixed;
-        top: 0;
-        right: -200px;
-        width: 200px;
-        height: 100vh;
-        padding-top: 50px;
-        z-index: 2;
-        transition: 0.5s;
-    }
-    nav ul li{
-        display:block;
-        padding-left: 12px;
-    }
-    nav ul i{
-        position: absolute;
-        top: 25px;
-        left: 25px;
-        cursor: pointer;
-    }
-    nav i {
-        cursor: pointer
-    }
-    .subtitle{
-        font-size: 40px;
-    }
-    .about-col-1{
-        flex-basis: 100%;
-        margin-bottom: 30px;
-    }
-    .about-col-2{
-        flex-basis: 100%;
-        font-size: 13px;
-    }
-    .tablink{
-        font-size: 16px;
-        margin-right: 20px;
     }
 }

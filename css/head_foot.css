@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Poppins",sans-serif;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 /*                              Web header section                              */
 nav i {
@@ -66,7 +67,10 @@ button:hover {
     background-color: rgba(253, 253, 253,0.8);
 }
 /* contact */
-
+#contact{
+    left: 0;
+    bottom: 0;
+}
 .contact-left{
     flex-basis: 35%;
 }
@@ -90,13 +94,20 @@ button:hover {
     font-weight: 600;
     margin-bottom: 10px;
 }
+#credit{
+    height: 2vh;
+    background-color: #bbbbbb;
+    text-align: center;
 
+}
+#credit a{
+    color: white;
+    text-decoration: none;
+}
 
 /* csss for small screen */
 @media only screen and (max-width: 600px){
-    #header{
-        background-image: url(/images/prfile.png);
-    }
+
     .intro_text{
         margin-top: 100%;
         font-size: 16px;
@@ -147,5 +158,11 @@ button:hover {
     .tablink{
         font-size: 16px;
         margin-right: 20px;
+    }
+    #credit{
+        height: 3vh;
+        background-color: #bbbbbb;
+        text-align: center;
+    
     }
 }

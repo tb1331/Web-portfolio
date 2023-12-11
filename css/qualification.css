@@ -1,103 +1,40 @@
 /* qualification scetion */
-
-#hobby{
+.container{
+    overflow-x: scroll;
+}
+#qualification{
     padding: 30px 0;
 }
-
-.hobby-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
+table, td, th {
+    border: 1px solid;
+    padding: 0px 12px;
+    
 }
-.hobby-list div{
-    background: #262626;
-    padding: 30px;
-    font-size: 16px;
-    font-weight: 300;
-    border-radius: 10px;
-    height: 57vh;
-    transition: background 0.5s, transform 0.5s;
-}
-.hobby-list div h2{
-    font-size: 30px;
-    font-family: 500;
-    margin-bottom: 15px;
-}
-.hobby-list div a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 12px;
-    margin-top: 20px;
-    display: inline-block;
-}
-.hobby-list div:hover{
-    background: #d660d8;
-    transform: translateY(-10px);
-}
-/* Portfolio */
-#portfolio{
-    padding: 50px 0;
-}
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 40px;
-    margin-top: 50px;
-}
-.work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-}  
-.work img{
-    width: 100%;
-    border-radius: 10px;
-    display: block;
-    transition: transform 0.5s;
-} 
-.layer{
-    position: absolute;
-    width: 100%;
-    height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6),#d660d8);
-    border-radius: 10px;
-    left: 0;
-    bottom: 0;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0 40px;
-    text-align: center;
-    transition: height 0.5s;
-}
-.layer h3{
-    font-weight: 700;
-    margin-bottom: 20px;
-}
-.layer a{
-    margin-top: 20px;
-    color: #d660d8;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 60px;
-    background: #fff;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    text-align: center;
-}
-.work:hover img{
-    transform: scale(1.1);
-}
-.work:hover .layer {
-    height: 100%;
+#table{
+    border-collapse: collapse;
+    overflow-x:auto;
+    border: 1px solid;
 }
 
 
-nav i {
-    display: none;
-}
+#cv{
+    
+    width: 50vh;
+    height: auto;
+    display: block; 
+    padding-top: 17px;
 
+
+}
+/* csss for small screen */
+@media only screen and (max-width: 600px){
+    #cv{
+    
+        width: 30vh;
+        height: auto;
+        display: block; 
+        padding-top: 17px;
+    
+    
+    }
+}

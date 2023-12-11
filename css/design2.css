@@ -1,0 +1,52 @@
+.hobby-list{
+    display: flex;
+    grid-gap: 40px;
+    margin-top: 20px;
+}
+.hobby-list .text{
+    background: #262626;
+    padding: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition: background 0.5s, transform 0.5s;
+}
+.hobby-list .text{
+    width: 70%;
+}
+.hobby-list .image{
+    width: 30%;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.hobby-list div h2{
+    font-size: 30px;
+    font-family: 500;
+    margin-bottom: 15px;
+}
+.hobby-list div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.hobby-list .text:hover{
+    background: #d660d8;
+    transform: translateY(-10px);
+}
+@media only screen and (max-width: 600px){
+ .hobby-list{
+    display: block;
+ }
+ .hobby-list .text{
+    width: 100%;
+}
+.hobby-list .image{
+    width: 100%;
+    padding: 13px;
+ 
+}
+}

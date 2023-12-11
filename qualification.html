@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no" />
     <title>Doan DInh QUOc portfolio</title>
     <link rel="stylesheet" href="css/qualification.css">
     <link rel="stylesheet" href="css/head_foot.css">
@@ -15,7 +16,7 @@
             <img src="/images/logo.webp" class="logo" alt="logo"> 
             <ul id="sidemenu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="index.html">About</a></li>
                 <li><a href="skill.html">My skill</a></li>
                 <li><a href="qualification.html">My qualification</a></li>
                 <li><a href="#contact"><button>Contact me</button></a></li>
@@ -28,50 +29,68 @@
 </div>   
 </nav>
 
-<!-- Qualification, first was hobby until read the assignment -->
-<div id="hobby">
+<!-- Qualification-->
+<div id="qualification">
     <div class="container">
         <h1 class="subtitle">My Qualification</h1>
-        <div class="hobby-list">
-            <div>
-                <h2>Video game</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ullamcorper laoreet. Sed gravida ac diam condimentum bibendum. Nam gravida sollicitudin aliquam. Vestibulum commodo cursus interdum. Pellentesque eget libero in purus porttitor facilisis. Donec lobortis metus non est malesuada fermentum. </p>
-                <a href="">View my Steam profile</a>
-            </div>
-            <div>
-                <h2>Movie</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ullamcorper laoreet. Sed gravida ac diam condimentum bibendum. Nam gravida sollicitudin aliquam. Vestibulum commodo cursus interdum. Pellentesque eget libero in purus porttitor facilisis. Donec lobortis metus non est malesuada fermentum. </p>
-                <a href="">This is my favorite movie</a>
-            </div>
-            <div>
-                <h2>Comic</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempus ullamcorper laoreet. Sed gravida ac diam condimentum bibendum. Nam gravida sollicitudin aliquam. Vestibulum commodo cursus interdum. Pellentesque eget libero in purus porttitor facilisis. Donec lobortis metus non est malesuada fermentum. </p>
-                <a href="">My favorite comic trilogy</a>
-            </div>
-        </div>
+        <table id="table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>My qualification</th>
+                <th>My previous employment</th>
+                <th>My CV</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2022</td>
+                <td>
+                    <p>ielts: 7.0</p>
+                    <p>Anu steam box</p>
+                    <p>Cialfo training program</p>
+                </td>  
+                <td>Chien lai shop</td>
+                <td rowspan="2"><a href="/images/Doan-Dinh-Quoc_CV-Resume-1.webp"><img id="cv" src="/images/Doan-Dinh-Quoc_CV-Resume-1.webp" alt="cv" ></a></td>  
+              </tr>   
+            </tbody>
+            <tfoot>
+              <tr>
+                <td>2023</td>
+                <td>N/a</td> 
+                <td>N/a</td>
+                <td><a href="Doan Dinh Quoc_CV Resume (1).pdf" download="Doan Dinh Quoc_CV Resume.pdf"><button>Click here to download CV</button></a></td>
+              </tr>
+            </tfoot>
+          </table>
     </div>
 </div>
+
 <footer>
-<div id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="contact-left">
-                <h1 class="subtitle">
-                    Contact Me:
-                </h1>
-            </div>
-            <div class="contact-right">
-                <p>Email: dinhquoc1331@gmail.com</p>
-                <p>Phone: 0936012586</p>
-                <div class="social-icon">
-                    <a href="https://www.facebook.com/profile.php?id=100063468559421"><img src="/images/facebook-2870.webp" alt="fb link"></a>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">
+                        Contact Me:
+                    </h1>
+                </div>
+                <div class="contact-right">
+                    
+                    <p>Email: dinhquoc1331@gmail.com</p>
+                    <p>Phone: 0936012586</p>
+                    <div class="social-icon">
+                        <a href="https://www.facebook.com/profile.php?id=100063468559421"><img src="/images/facebook-2870.webp" alt="fb link"></a>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    <div id="credit"><a href="SOURCE">For credit and image source click here</a></div>
 </footer>
 </body>
+
+
 <script src="/js/menu.js"></script>
 <script src="/js/tab.js"></script>
 </html>
