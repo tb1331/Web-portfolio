@@ -80,6 +80,6 @@ nav i {
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(/images/prfile.png);
+        background-image: url(/images/prfile.webp);
     }
 }

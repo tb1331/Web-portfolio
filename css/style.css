@@ -197,7 +197,8 @@ nav i {
 /* csss for small screen */
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(/images/prfile.png);
+        background-image: url(/images/prfile.webp);
+        height: 100vh;
     }
     .intro_text{
         margin-top: 100%;

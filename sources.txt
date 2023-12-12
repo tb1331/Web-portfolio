@@ -1,3 +1,4 @@
+Images:
 https://www.securitymagazine.com/articles/99729-cisa-joins-partners-to-warn-of-routinely-exploited-vulnerabilities
 https://www.cai.io/resources/thought-leadership/3-components-of-a-cybersecurity-strategy
 https://www.cai.io/__data/assets/image/0019/1837/varieties/article_hero.jpg
@@ -5,3 +6,5 @@ https://www.cai.io/__data/assets/image/0019/1837/varieties/article_hero.jpg
 https://www.dialageek.co.uk/blog/our-ultimate-guide-to-cyber-security/
 https://www.neit.edu/blog/5-reasons-to-consider-a-career-change-to-cyber-security
 https://securitybrief.com.au/story/cyber-security-innovation-has-stagnated-and-we-need-a-new-approach
+Web template:
+https://youtu.be/0YFrGy_mzjY?si=LKyrgfCeEMYZrYKn
