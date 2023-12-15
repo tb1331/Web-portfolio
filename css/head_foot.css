@@ -165,4 +165,10 @@ button:hover {
         text-align: center;
     
     }
+    .contact-left{
+        flex-basis: 100%;
+    }
+    .contact-right{
+        flex-basis: 100%;
+    }
 }

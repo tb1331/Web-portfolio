@@ -44,6 +44,7 @@
     background-color: gray;
     color: white;
     border-color:white ;
+
 }
 .keyboard-row {
     width: 400px;
@@ -80,7 +81,13 @@
     justify-content: center;
     align-items: center;
 }
+.reload{
+    display: block;
+    margin: 0 auto;
 
-#answer{
-    margin-bottom: 80px;
 }
+footer{
+    padding-top: 40px;
+  
+}
+
